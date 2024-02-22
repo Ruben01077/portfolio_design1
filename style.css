@@ -1,0 +1,186 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+   
+   
+
+}
+
+.left_div{
+
+    background-color: rgb(46, 43, 43);
+    width: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+    
+
+}
+
+.image_div img{
+
+    width: 15rem;
+    padding-top: 2.5rem;
+
+}
+
+.image_div{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.phone_number_div, .location_div, .website_div, .email_div{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+.phone_number_div *, .location_div *, .website_div *, .email_div *{
+ 
+    padding: 0px 3px;
+  
+}
+
+
+.contact_div, .skills_div, .language_div{
+
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+}
+
+.title_div{
+
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+hr{
+
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.title_div p {
+
+    margin-bottom: 0;
+
+}
+
+.skills_div li, .language_div li{
+
+    margin: 10px 0px 10px 0px
+
+}
+
+
+.right_div{
+
+   
+    width: 40rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(240, 241, 241);
+    box-shadow: 2px 2px 20px black;
+
+
+}
+
+
+.name_div, .occupation_div, .about_div, .work_experiance_div{
+
+    padding: 1rem 3rem;
+
+}
+
+.name_div{
+
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+
+.occupation_div{
+
+    font-size: 2.5rem;
+    padding:  0rem 3rem 0rem 3rem;
+
+}
+
+.name_div p{
+
+    margin: 6rem 0rem 0rem 0rem ;
+
+
+}
+
+.occupation_div p {
+
+    margin: 0rem ;
+
+
+}
+
+.right_div hr{
+
+    background-color: black;
+
+}
+
+.about_title p, .work_experiance_title p, .education_title_div p{
+
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+
+}
+
+.Company_name_div p{
+
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      flex-wrap: wrap;
+    }
+
+    .left_div{
+        width: 100%;
+    }
+
+
+
+
+  }
+
+
+  @media only screen and (max-width: 350px) {
+
+    .name_div, .occupation_div, .about_div, .work_experiance_div{
+    
+        padding: 1rem 1rem;
+    
+    } 
+    .contact_div, .skills_div, .language_div{
+
+        padding: 1rem 1rem;
+       
+    }
+
+
+  }
